@@ -19,3 +19,12 @@ JOIN Products p ON s.product_id = p.product_id
 GROUP BY p.category
 ORDER BY total_revenue DESC;
 
+-- Promo code usage and total revenue per promo
+SELECT
+    promo_code, 
+    COUNT(*) AS times_used,
+    ROUND(SUM(quantity * price), 2) AS total_revenue
+FROM Orders
+WHERE promo_code IS NOT NULL
+GROUP BY promo_code
+ORDER BY total_revenue DESC;
