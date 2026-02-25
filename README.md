@@ -2,7 +2,7 @@
 
 ## FF Executive Dashboard
 
-![FF Executive Dashboard](dashboard/FF_Executive_Dashboard.png)
+![FF Executive Dashboard](FF%20Executive%20Dashboard.png)
 
 *Executive dashboard design showing key metrics based on FreshFeast subscription data. Numbers are illustrative; real metrics will be available in the interactive dashboard.*
 
