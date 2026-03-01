@@ -2,9 +2,9 @@
 
 ## FF Executive Dashboard
 
-![FF Executive Dashboard](FF%20Executive%20Dashboard.png)
+![FF Executive Dashboard](https://raw.githubusercontent.com/AdamLumbley/freshfeast-analytics-dashboard/main/FF%20Executive%20Dashboard.png)
 
-*Executive dashboard design showing key metrics based on FreshFeast subscription data. Numbers are illustrative; real metrics will be available in the interactive dashboard.*
+*Executive dashboard design showing key metrics based on FreshFeast subscription data.*
 
 ## Overview
 FreshFeast Boxes is a fictional subscription meal kit business. This project simulates the company's database and demonstrates SQL analytics for customers, subscriptions, orders, products, and promotions.
