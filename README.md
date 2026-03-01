@@ -6,6 +6,8 @@
 
 *Executive dashboard design showing key metrics based on FreshFeast subscription data.*
 
+> ⚠️ **Work in Progress:** This dashboard is a WIP version created to demonstrate SQL and Power BI skills. Layout, visuals, and metrics may be refined over time as the project evolves.
+
 ## Overview
 FreshFeast Boxes is a fictional subscription meal kit business. This project simulates the company's database and demonstrates SQL analytics for customers, subscriptions, orders, products, and promotions.
 
