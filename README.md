@@ -19,7 +19,7 @@ FreshFeast Boxes is a fictional subscription meal kit business. This project sim
 - **Promotions:** Discount codes applied to orders
 
 ## Seed Data
-The database includes realistic seed data for customers, products, subscriptions, orders, and promotions, allowing meaningful analysis.
+The database includes exceptionally small seed data for the purpose of analysis simulation.
 
 ## Key Insights / Queries
 Sample queries demonstrate:
