@@ -1,39 +1,33 @@
 # FreshFeast Analytics Dashboard
 
-## FF Executive Dashboard
+## Overview
+FreshFeast Boxes is a fictional subscription meal kit business.  
+This project simulates a transactional relational database and demonstrates end-to-end business intelligence using SQL and Power BI to analyze customer behavior, revenue trends, product performance, and promotion effectiveness.
+
+I designed the database schema, wrote analytical SQL queries, and built an executive dashboard to translate raw data into actionable business insights.
 
 ![FF Executive Dashboard](https://raw.githubusercontent.com/AdamLumbley/freshfeast-analytics-dashboard/main/FF%20Executive%20Dashboard.png)
 
-*Executive dashboard design showing key metrics based on FreshFeast subscription data.*
+*Executive dashboard summarizing key high-level KPIs.*
 
-> ⚠️ **Work in Progress:** This dashboard is a WIP version created to demonstrate SQL and Power BI skills. Layout, visuals, and metrics may be refined over time as the project evolves.
+---
 
-## Overview
-FreshFeast Boxes is a fictional subscription meal kit business. This project simulates the company's database and demonstrates SQL analytics for customers, subscriptions, orders, products, and promotions.
+## 🔍 Key Business Insights
 
-## Schema
-- **Customers:** Customer info, loyalty tiers, location
-- **Products:** Product catalog, categories, prices
-- **Subscriptions:** Links customers to products over time
-- **Orders:** Actual transactions
-- **Promotions:** Discount codes applied to orders
+- **Revenue concentrated in higher tiers:** Premium and mid-tier customers generate the majority of total revenue, highlighting strong upsell opportunities.
+- **Top products drive most sales:** A small subset of products accounts for most revenue, suggesting focused inventory and marketing strategies.
+- **Ordering patterns over time:** Clear demand peaks indicate opportunities for improved forecasting, staffing, and campaign timing.
+- **Promotions increase volume but reduce order value:** Discounts boost transactions but often lower average revenue, requiring balanced pricing strategy.
+- **Repeat customers have higher lifetime value:** Returning customers contribute significantly more cumulative revenue, emphasizing retention initiatives.
 
-## Seed Data
-The database includes exceptionally small seed data for the purpose of analysis simulation.
+These findings demonstrate how SQL-driven analysis can directly support business decisions.
 
-## Key Insights / Queries
-Sample queries demonstrate:
-- Monthly revenue by loyalty tier
-- Revenue per product category
-- Promo code usage and revenue
-- High-value customers segmentation
-- Customer behavior and repeat orders
+---
 
-## Instructions
-1. Run `schema.sql` to create the tables.
-2. Run `seed_data.sql` to populate the tables with sample data.
-3. Run queries in `queries.sql` to analyze the business.
+## Tools & Skills Demonstrated
 
-## Future Extensions
-- Add Returns table to track product returns
-- Add Reviews table to analyze customer satisfaction
+- SQL (SQLite)
+- Power BI dashboard development
+- Data modeling & schema design
+- KPI reporting & business analytics
+- VS Code
