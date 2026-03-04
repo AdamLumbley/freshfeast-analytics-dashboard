@@ -24,7 +24,7 @@ FROM Subscriptions s
 JOIN Orders o ON s.subscription_id = o.subscription_id
 JOIN Products p ON s.product_id = p.product_id
 GROUP BY p.category
-ORDER BY total_revenue DESC;
+ORDER BY total_revenue DESC;```
 
 
 ## Database Schema
