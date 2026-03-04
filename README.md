@@ -1,7 +1,7 @@
 # FreshFeast Analytics
 
 ![Total Revenue by Product Category](https://github.com/AdamLumbley/freshfeast-analytics-dashboard/raw/main/FF%20Sales%20By%20Category.png)
-[![Top 10 Customers by Lifetime Revenue](https://github.com/AdamLumbley/freshfeast-analytics-dashboard/raw/main/FF%20Top%2010%20CLV.png)](https://github.com/AdamLumbley/freshfeast-analytics-dashboard/raw/main/FF%20Top%2010%20CLV.png)
+[[![Top 10 Customers by Lifetime Revenue](https://github.com/AdamLumbley/freshfeast-analytics-dashboard/raw/main/FF%20Top%2010%20CLV.png)](https://github.com/AdamLumbley/freshfeast-analytics-dashboard/raw/main/FF%20Top%2010%20CLV.png)](https://github.com/AdamLumbley/freshfeast-analytics-dashboard/raw/main/FF%20Top%2010%20CLV.png)
 
 ## Overview
 Performed analysis on subscription and order data for FreshFeast, an e-commerce meal subscription service.  
