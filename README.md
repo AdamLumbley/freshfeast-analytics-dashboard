@@ -8,7 +8,7 @@ Performed analysis on subscription and order data for FreshFeast, an e-commerce 
 This project demonstrates the use of SQL (SQLite) to calculate key KPIs such as total revenue by product category, total revenue by product, and customer lifetime value segmentation.
 
 ## Tools Used
-- **SQL / SQLite** – for schema, data generation, and querying KPIs  
+- **SQL / SQLite** – for schema and querying KPIs  
 - **Power BI** – to create visuals highlighting top products and high-value customers  
 
 ## Database Schema
