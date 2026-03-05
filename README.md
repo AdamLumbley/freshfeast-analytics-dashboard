@@ -12,6 +12,8 @@ This project demonstrates the use of SQL (SQLite) to calculate key KPIs such as 
 - **Morgan Davis** is the #1 most valuable customer with the highest lifetime revenue.  
 - Top 10 customers account for a significant portion of overall revenue, highlighting the importance of retention.  
 - Products in the top revenue categories could be prioritized for promotions and marketing campaigns.
+
+  These insights help FreshFeast prioritize top-performing product categories and focus retention efforts on high-value customers.
   
 ## Database Schema
 ## Database Schema
