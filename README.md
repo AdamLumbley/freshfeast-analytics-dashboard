@@ -14,24 +14,34 @@ This project demonstrates the use of SQL (SQLite) to calculate key KPIs such as 
 - Products in the top revenue categories could be prioritized for promotions and marketing campaigns.
 - 
 ## Database Schema
+## Database Schema
 **Customers Table**
-- `customer_id` (Primary Key)  
+- `customer_id`  
 - `name`  
 - `email`  
+- `loyalty_tier`  
 
 **Products Table**
-- `product_id` (Primary Key)  
+- `product_id`  
 - `name`  
 - `category`  
 - `price`  
 
 **Subscriptions Table**
-- `subscription_id` (Primary Key)  
-- `customer_id` (Foreign Key → Customers)  
-- `product_id` (Foreign Key → Products)  
-- `quantity`  
+- `subscription_id`  
+- `customer_id`  
+- `product_id`  
+- `start_date`  
+- `end_date`  
+- `status`  
+
+**Orders Table**
+- `order_id`  
+- `subscription_id`  
 - `order_date`  
-- `total_amount`
+- `quantity`  
+- `price`  
+- `promo_code`
 
 ## Tools Used
 - **SQL / SQLite** – for schema and querying KPIs  
