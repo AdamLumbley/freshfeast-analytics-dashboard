@@ -12,21 +12,7 @@ This project demonstrates the use of SQL (SQLite) to calculate key KPIs such as 
 - **Morgan Davis** is the #1 most valuable customer with the highest lifetime revenue.  
 - Top 10 customers account for a significant portion of overall revenue, highlighting the importance of retention.  
 - Products in the top revenue categories could be prioritized for promotions and marketing campaigns.
-
-  ## Sample Query 
-### Total Revenue by Product Category
-```sql
--- Total revenue by product category
-SELECT
-    p.category,
-    ROUND(SUM(o.quantity * o.price), 2) AS total_revenue
-FROM Subscriptions s
-JOIN Orders o ON s.subscription_id = o.subscription_id
-JOIN Products p ON s.product_id = p.product_id
-GROUP BY p.category
-ORDER BY total_revenue DESC;```
-
-
+- 
 ## Database Schema
 **Customers Table**
 - `customer_id` (Primary Key)  
@@ -47,7 +33,19 @@ ORDER BY total_revenue DESC;```
 - `order_date`  
 - `total_amount`
 
-
 ## Tools Used
 - **SQL / SQLite** – for schema and querying KPIs  
-- **Power BI** – to create visuals highlighting top products and high-value customers  
+- **Power BI** – to create visuals highlighting top products and high-value customers
+
+-   ## Sample Query 
+### Total Revenue by Product Category
+```sql
+-- Total revenue by product category
+SELECT
+    p.category,
+    ROUND(SUM(o.quantity * o.price), 2) AS total_revenue
+FROM Subscriptions s
+JOIN Orders o ON s.subscription_id = o.subscription_id
+JOIN Products p ON s.product_id = p.product_id
+GROUP BY p.category
+ORDER BY total_revenue DESC;
