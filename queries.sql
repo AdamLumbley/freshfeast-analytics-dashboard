@@ -1,21 +1,22 @@
 --Cohort Analysis
 WITH first_purchase AS (
   SELECT
-    customer_id,
-    MIN(DATE_TRUNC('month', order_date)) AS cohort_month
-  FROM orders
-  GROUP BY customer_id
+    s.customer_id,
+    MIN(strftime('%Y-%m', o.order_date)) AS cohort_month
+  FROM Orders o
+  JOIN Subscriptions s ON o.subscription_id = s.subscription_id
+  GROUP BY s.customer_id
 ),
 cohort_purchases AS (
   SELECT
     f.cohort_month,
-    DATE_TRUNC('month', o.order_date) AS order_month,
+    strftime('%Y-%m', o.order_date) AS order_month,
     COUNT(*) AS purchases,
-    SUM(o.revenue) AS revenue
-  FROM orders o
-  JOIN first_purchase f
-    ON o.customer_id = f.customer_id
-  GROUP BY f.cohort_month, DATE_TRUNC('month', o.order_date)
+    SUM(o.price * o.quantity) AS revenue
+  FROM Orders o
+  JOIN Subscriptions s ON o.subscription_id = s.subscription_id
+  JOIN first_purchase f ON s.customer_id = f.customer_id
+  GROUP BY f.cohort_month, strftime('%Y-%m', o.order_date)
 )
 SELECT
   cohort_month,
