@@ -4,8 +4,7 @@
 ![Top 10 Customers by Lifetime Revenue](https://raw.githubusercontent.com/AdamLumbley/freshfeast-analytics-dashboard/main/FF%20Top%2010%20CLV.png)
 
 ## Overview
-Performed analysis on subscription and order data for FreshFeast, an e-commerce meal subscription service.  
-This project demonstrates the use of SQL (SQLite) to calculate key KPIs such as total revenue by product category, total revenue by product, and customer lifetime value segmentation.
+This project demonstrates **end-to-end ETL pipelines** for FreshFeast, an e-commerce meal subscription service: data was extracted from SQLite, transformed and cleaned to calculate key KPIs, and loaded into Power BI dashboards to visualize total revenue by product category, top products, and customer lifetime value segmentation.
 
 ## Key Insights
 - The company’s highest-performing product category is **Vegetarian**, driving the majority of total revenue.  
